@@ -1,11 +1,11 @@
 ansible_host: <ip-adress>
-install_drive: /dev/sda
-boot_partition_suffix: 1
-root_partition_suffix: 2
-hostname: arch-X250
-efi: true
+install_drive: /dev/nvme0n1p
+boot_partition_suffix: 5
+root_partition_suffix: 6
+hostname: Lasse-Laptop
+dual_boot_efi: true
 intel: true
 bluetooth: true
-sshd: false
+sshd: true
 xorg: true
 plasma: true
